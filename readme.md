@@ -104,7 +104,7 @@ If we look at the contents of this empty folder using:
 ```bash
 ls -A
 ```
-g
+
 We should see that there is now a hidden folder called `.git` this is where all of the information about your repository is stored. There is no need for you to make any changes to this folder. You can control all the git flow using `git` commands.
 
 #### Add a file
@@ -113,12 +113,6 @@ Let's create a new file:
 
 ```bash
 $ touch file.txt
-```
-
-A small cross should show next to your prompt!
-
-```bash
-git:(master) ✗
 ```
 
 If we run `git status` we should get:
@@ -139,7 +133,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 This means that there is a new **untracked** file. Next, tell Git to take a snapshot of the contents of all files under the current directory (note the .)
 
 ```bash
-$ git add . (or git add -A)
+$ git add -A
 ```
 What is the difference?
 
@@ -235,13 +229,19 @@ Checking `git log` will show you 2 commits with different ids:
 * b4faebd Adds file.txt
 ```
 
-We can revert the file back to the first commit using its specific commit id with:
+We can temporarily return a file back to its condition in the first commit using its specific commit id with:
 
 ```bash
-$ git reset --soft b4faebd
+$ git checkout b4faebd
 ```
 
-This will do a soft reset, where the changes in the file we made are still there - the changes are staged but not committed anymore.
+This changes your local file version to the one from that specific commit.
+
+You can return to your newer commit by executing a `checkout` again:
+
+```bash
+$ git checkout 6e78569
+```
 
 If we want to revert the file back and disregard any changes (dangerous!), ~~we can use~~ almost definitely do **not** use:
 
@@ -253,7 +253,7 @@ $ git reset --hard b4faebd
 
 ### GitHub
 
-#### Making and cloning repositories
+#### Making a new repositories
 
 <!--Catch-up-->
 
@@ -367,14 +367,12 @@ _"I've made some changes to your repository, if you want to include them in your
 
 ## Questions
 
-Use the internet and what you've learned today to answer the following questions with a partner:
+Use what you've learned today to answer the following questions with a partner:
 
 * How do I send changes to the staging area?
 * How do I check what is going to be committed?
 * How do I send the commits to Github?
-* How do I go back to the previous commit?
-* How do I check the configuration on a specific machine?
-* How does github know that I am allowed to push to a specific repo?
+* How do I go back to a previous commit?
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
