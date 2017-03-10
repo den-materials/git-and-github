@@ -229,13 +229,13 @@ Checking `git log` will show you 2 commits with different ids:
 * b4faebd Adds file.txt
 ```
 
-We can temporarily return a file back to its condition in the first commit using its specific commit id with:
+You can return your repository back to the state of any commit using its specific commit id:
 
 ```bash
 $ git checkout b4faebd
 ```
 
-This changes your local file version to the one from that specific commit.
+This changes your local repository files to the state of your first commit.
 
 You can return to your newer commit by executing a `checkout` again:
 
@@ -243,11 +243,13 @@ You can return to your newer commit by executing a `checkout` again:
 $ git checkout 6e78569
 ```
 
-If we want to revert the file back and disregard any changes (dangerous!), ~~we can use~~ almost definitely do **not** use:
+It is very tempting to try to "undo" changes in a repository, and many online resources will recommend you run the command below:
 
 ```bash
 $ git reset --hard b4faebd
 ```
+
+This is very dangerous, because it has the ability to completely delete work. Almost definitely do **not** use this.
 
 <!--2:05 10 minutes -->
 
