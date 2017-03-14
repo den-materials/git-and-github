@@ -36,6 +36,7 @@ One of the big problems with team projects is this exact problem.  How do you kn
 - **Use** the command line
 - **Use** a text editor
 
+<!--Actually 1:35 -->
 <!--1:35 5 minutes -->
 
 ## Git vs GitHub and Version Control
@@ -253,6 +254,7 @@ $ git reset --hard b4faebd
 
 This is very dangerous, because it has the ability to completely delete work. Almost definitely do **not** use this.
 
+<!--Actually 2:08 -->
 <!--2:05 10 minutes -->
 
 ### GitHub
@@ -274,6 +276,7 @@ We now need to connect our local Git repo with our remote repository on GitHub. 
 git remote add origin git@github.com:<github-name>/hello-world.git
 ```
 
+<!--Actually 2:16 -->
 <!--2:15 10 minutes -->
 #### Pushing to Github
 
@@ -309,6 +312,7 @@ Once we have done this, you should see the README file on your computer. Congrat
 
 ![](nsync.jpg)
 
+<!--Actually 2:24 -->
 <!--2:25 10 minutes -->
 
 #### Cloning
@@ -354,6 +358,7 @@ Checking connectivity... done.
 
 You now have cloned your first repository!
 
+<!--Actually 2:41 -->
 <!--2:35 10 minutes -->
 
 ## Forking
@@ -374,6 +379,7 @@ When you want to propose a change to a repository (the original project) that yo
 
 _"I've made some changes to your repository, if you want to include them in your original one then you can pull them from my fork!"_
 
+<!--Actually 2:51 -->
 <!--2:45 5 minutes -->
 
 ## Questions
