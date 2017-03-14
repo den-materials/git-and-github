@@ -383,7 +383,6 @@ Use what you've learned today to answer the following questions with a partner:
 * How do I send changes to the staging area?
 * How do I check what is going to be committed?
 * How do I send the commits to Github?
-* How do I go back to a previous commit?
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
