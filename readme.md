@@ -83,6 +83,8 @@ $ cd ~/Desktop
 $ mkdir hello-world
 ```
 
+Go into this directory.  **Hint: how do you "change directory"?**
+
 You can place this directory under Git revision control using the command:
 
 ```bash
@@ -171,7 +173,7 @@ You should see:
 * b4faebd (HEAD, master) Adds file.txt
 ```
 
-To exit this view, you need to press:
+If you need to exit this view, you need to press:
 
 ```bash
 q
@@ -218,7 +220,7 @@ Running `git status` again will show you that file.txt has been **modified**.
 Let's now make a second commit.
 
 ```bash
-$ git add .
+$ git add -A
 $ git commit -m "Adds content to file.txt"
 ```
 
@@ -264,13 +266,12 @@ This is very dangerous, because it has the ability to completely delete work. Al
 ![](https://help.github.com/assets/images/help/repository/repo-create.png)
 3. Name your repository `hello-world`
 ![](https://help.github.com/assets/images/help/repository/repo-create-name.png)
-4. **Initialize this repository with a README** (So that we can `git pull`)
 4. Click the big green Create Repository button
 
 We now need to connect our local Git repo with our remote repository on GitHub. We have to add a "remote" repository, an address where we can send our local files to be stored.
 
 ```bash
-git remote add origin git@github.com:github-name/hello-world.git
+git remote add origin git@github.com:<github-name>/hello-world.git
 ```
 
 <!--2:15 10 minutes -->
@@ -282,23 +283,31 @@ In order to send files from our local machine to our remote repository on Github
 git push origin master
 ```
 
-This should fail due to new files on the remote repo.
+After you run this command, refresh your GitHub repo page, and you should see `file.txt`!
 
 #### Pulling from Github
 
-As we added the README.md in our repo, we need to first `pull` that file to our local repository to check that we haven't got a 'conflict'.
+Now we will add a README.md to our repo, a useful file that you should put in all of your repos.
+
+Click the `Create new file` button.
+
+Type `README.md` into the `Name your file...` box.
+
+Enter some helpful text in the large `Edit new file` box.
+
+Scroll down until you see the commit dialog.  The default "Create README.md" message is probably helpful enough, so you can click `Commit new file`.  Woo hoo, you committed on GitHub.
+
+> **Note:** You should commit locally whenever possible, not on GitHub.
+
+Now we need to `pull` our `README.md` file to our local repository.
 
 ```bash
 git pull origin master
 ```
 
-Once we have done this, you should see the README file on your computer. Now you can push your changes:
+Once we have done this, you should see the README file on your computer. Congratulations, you are now:
 
-```bash
-git push origin master
-```
-
-Refresh your GitHub webpage, and the files should be there.
+![](nsync.jpg)
 
 <!--2:25 10 minutes -->
 
@@ -306,11 +315,11 @@ Refresh your GitHub webpage, and the files should be there.
 
 Cloning allows you to get a local copy of a remote repository.
 
-Navigate back to your Desktop and **delete your hello-world repository**:
+Navigate back to your Desktop and **rename your hello-world repository**:
 
 ```bash
 cd ~/Desktop
-rm -rf hello-world
+mv hello-world hello-world-old
 ```
 
 Now ask the person sitting next to you for their github name and navigate to their repository on github:
