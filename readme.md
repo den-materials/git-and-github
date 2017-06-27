@@ -212,8 +212,6 @@ $ subl file.txt
 
 Inside the file, write something.
 
-If you press `return` in the terminal, you will now see that you have untracked changes.
-
 Running `git status` again will show you that file.txt has been **modified**.
 
 #### Revert to a previous commit
@@ -259,7 +257,7 @@ This is very dangerous, because it has the ability to completely delete work. Al
 
 ### GitHub
 
-#### Making a new repositories
+#### Making a new repository
 
 <!--Catch-up-->
 
@@ -290,7 +288,7 @@ After you run this command, refresh your GitHub repo page, and you should see `f
 
 #### Pulling from Github
 
-Now we will add a README.md to our repo, a useful file that you should put in all of your repos.
+Now we will add a `README.md` to our repo, a useful file that you should put in all of your repos.
 
 Click the `Create new file` button.
 
@@ -323,7 +321,7 @@ Navigate back to your Desktop and **rename your hello-world repository**:
 
 ```bash
 cd ~/Desktop
-mv hello-world hello-world-old
+mv hello-world hello-world-mine
 ```
 
 Now ask the person sitting next to you for their github name and navigate to their repository on github:
