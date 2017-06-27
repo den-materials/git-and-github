@@ -7,6 +7,7 @@ Adapted for: DEN
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--1:34 WDI4 -->
 <!--1:30 5 minutes -->
 
 <!-- Hook: Raise your hand if you've ever had a group essay project.  How did you share your essay?
@@ -37,6 +38,7 @@ One of the big problems with team projects is this exact problem.  How do you kn
 - **Use** a text editor
 
 <!--Actually 1:35 -->
+<!--WDI4 1:38 -->
 <!--1:35 5 minutes -->
 
 ## Git vs GitHub and Version Control
@@ -199,6 +201,7 @@ Good | Bad
   <figcaption>Maybe just take a break.</figcaption>
 </figure>
 
+<!--2:01 WDI4 after brooke intro -->
 <!--1:55 10 minutes -->
 <!--Catch-up -->
 
@@ -274,6 +277,7 @@ We now need to connect our local Git repo with our remote repository on GitHub. 
 git remote add origin git@github.com:<github-name>/hello-world.git
 ```
 
+<!--2:13 when turning over to devs WDI4 (stopped at git push origin master) -->
 <!--Actually 2:16 -->
 <!--2:15 10 minutes -->
 #### Pushing to Github
@@ -311,6 +315,7 @@ Once we have done this, you should see the README file on your computer. Congrat
 ![](nsync.jpg)
 
 <!--Actually 2:24 -->
+<!--WDI4 2:27 but had a lot of git issues to t-shoot, maybe next time want two teachers in the room for this section -->
 <!--2:25 10 minutes -->
 
 #### Cloning
@@ -377,6 +382,7 @@ When you want to propose a change to a repository (the original project) that yo
 
 _"I've made some changes to your repository, if you want to include them in your original one then you can pull them from my fork!"_
 
+<!--2:48 WDI4 -->
 <!--Actually 2:51 -->
 <!--2:45 5 minutes -->
 
