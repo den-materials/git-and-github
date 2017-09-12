@@ -7,6 +7,7 @@ Adapted for: DEN
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--1:31 WDI5 -->
 <!--1:34 WDI4 -->
 <!--1:30 5 minutes -->
 
@@ -37,6 +38,7 @@ One of the big problems with team projects is this exact problem.  How do you kn
 - **Use** the command line
 - **Use** a text editor
 
+<!--1:34 WDI5-->
 <!--Actually 1:35 -->
 <!--WDI4 1:38 -->
 <!--1:35 5 minutes -->
@@ -63,6 +65,8 @@ There are two main types of version control:
 - Git and GitHub together form a **distributed** version control system
 
 <!--CFU: Think-pair share, difference between Git/GitHub and Centralized vs Distributed -->
+
+<!--WDI5 1:43 -->
 
 #### So many commands?!
 
@@ -111,6 +115,8 @@ ls -A
 ```
 
 We should see that there is now a hidden folder called `.git` this is where all of the information about your repository is stored. There is no need for you to make any changes to this folder. You can control all the git flow using `git` commands.
+
+<!--WDI5 1:48 -->
 
 #### Add a file
 
@@ -161,6 +167,7 @@ You should now get:
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file.txt
 ```
+<!--WDI5 1:52 -->
 
 #### Checking the log
 
@@ -233,6 +240,8 @@ Checking `git log` will show you 2 commits with different ids:
 * b4faebd Adds file.txt
 ```
 
+<!--WDI5 2:02 -->
+
 You can return your repository back to the state of any commit using its specific commit id:
 
 ```bash
@@ -254,6 +263,8 @@ $ git reset --hard b4faebd
 ```
 
 This is very dangerous, because it has the ability to completely delete work. Almost definitely do **not** use this.
+
+<!--WDI5 2:06 -->
 
 <!--Actually 2:08 -->
 <!--2:05 10 minutes -->
@@ -313,7 +324,7 @@ git pull origin master
 Once we have done this, you should see the README file on your computer. Congratulations, you are now:
 
 ![](nsync.jpg)
-
+<!--WDI5 2:23 -->
 <!--Actually 2:24 -->
 <!--WDI4 2:27 but had a lot of git issues to t-shoot, maybe next time want two teachers in the room for this section -->
 <!--2:25 10 minutes -->
@@ -361,6 +372,7 @@ Checking connectivity... done.
 
 You now have cloned your first repository!
 
+<!--WDI5 2:29 -->
 <!--Actually 2:41 -->
 <!--2:35 10 minutes -->
 
@@ -376,12 +388,15 @@ When you fork a repository, you make a new **remote** repository that is exactly
 
 When you clone a repository, unless you have been added as a contributor, you will not be able to push your changes to the original remote repository.
 
+<!--WDI5 2:37 turning over to devs, coming back 2:41 -->
+
 #### Pull requests
 
 When you want to propose a change to a repository (the original project) that you have forked, you can issue a pull request. This basically is you saying:
 
 _"I've made some changes to your repository, if you want to include them in your original one then you can pull them from my fork!"_
 
+<!--2:43 to 2:46 WDI5 -->
 <!--2:48 WDI4 -->
 <!--Actually 2:51 -->
 <!--2:45 5 minutes -->
