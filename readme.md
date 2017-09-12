@@ -388,6 +388,7 @@ When you fork a repository, you make a new **remote** repository that is exactly
 
 When you clone a repository, unless you have been added as a contributor, you will not be able to push your changes to the original remote repository.
 
+<!--THIS IS A GREAT OPPORTUNITY TO PRACTICE IRL--have devs fork and clone tonight's HW repository -->
 <!--WDI5 2:37 turning over to devs, coming back 2:41 -->
 
 #### Pull requests
