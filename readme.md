@@ -44,6 +44,15 @@ One of the big problems with team projects is this exact problem.  How do you kn
 <!--1:35 5 minutes -->
 
 ## Git vs GitHub and Version Control
+Question : What is the difference between **Git** and **GitHub?**
+
+**Git** is the tool you and your colleagues use on your local machine to keep track of the project you're all working on. You can see the history of code edits, how two peoples' code merge into the same project, and many other wonderful things. 
+Check out the revision history for this project, or "repo".
+**Think project manager**
+
+**Github** is a cloud based git server and social network which uses Git under the hood for its version control system.
+**Think Dropbox designed specially for Git projects.**
+<!--
 <details>
   <summary>What is the difference between Git and GitHub?</summary>
   <p>Git is a software version control tool that works on your local machine. It allows you to `init`, `add`, `commit`, and `fork` project 'repos'. It also has methods `push`, `pull`, and `fetch` which are designed to interact with a git server or cloud based service like GitHub.
@@ -51,6 +60,7 @@ One of the big problems with team projects is this exact problem.  How do you kn
   Github is a cloud based git server and social network which uses Git under the hood for its version control system.
   </p>
 </details>
+-->
 
 
 ### What is version control? A closer look:
