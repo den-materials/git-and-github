@@ -213,7 +213,7 @@ Good | Bad
 "Fixes issue #347" | [commit logs from last night](http://www.commitlogsfromlastnight.com/)
 
 <figure>
-  <img src="https://explainxkcd.com/wiki/images/d/de/git_commit.png" alt="relevant XKCD">
+  <img src="git_commit.png" alt="relevant XKCD">
   <br>
   <figcaption>Maybe just take a break.</figcaption>
 </figure>
@@ -358,7 +358,7 @@ https://www.github.com/<github-username>/hello-world
 
 On the right hand side you will see:
 
-![](git_commit.png)
+![clone](https://cloud.githubusercontent.com/assets/40461/8228838/dfdc57a0-15a9-11e5-90a7-6c4fa8641ae6.jpg)
 
 Ensure that you have SSH checked and copy this url.
 
