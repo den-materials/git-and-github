@@ -46,7 +46,7 @@ One of the big problems with team projects is this exact problem.  How do you kn
 ## Git vs GitHub and Version Control
 Question : What is the difference between **Git** and **GitHub?**
 
-**Git** is the tool you and your colleagues use on your local machine to keep track of the project you're all working on. You can see the history of code edits, how two peoples' code merge into the same project, and many other wonderful things. 
+**Git** is the tool you and your colleagues use on your local machine to keep track of the project you're all working on. You can see the history of code edits, how two peoples' code merge into the same project, and many other wonderful things.
 Check out the revision history for this project, or "repo".
 **Think project manager**
 
@@ -358,7 +358,7 @@ https://www.github.com/<github-username>/hello-world
 
 On the right hand side you will see:
 
-![clone](https://cloud.githubusercontent.com/assets/40461/8228838/dfdc57a0-15a9-11e5-90a7-6c4fa8641ae6.jpg)
+![](git_commit.png)
 
 Ensure that you have SSH checked and copy this url.
 
